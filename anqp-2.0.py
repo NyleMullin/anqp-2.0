@@ -161,4 +161,5 @@ frame = (RadioTap()
 )
 
 
-sendp(frame, iface=interface, inter=3, loop=1)
+#sendp(frame, iface=interface, inter=3, loop=1)
+sendp(frame, iface="wlan3", inter=3, loop=1)
